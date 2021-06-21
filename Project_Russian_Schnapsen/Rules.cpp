@@ -12,7 +12,7 @@ Rules::Rules() {
 
 	font.loadFromFile("ex/font/sansation.ttf");
 	text.setFont(font);
-	text.setFillColor(sf::Color::Red);
+	text.setFillColor(sf::Color::Black);
 
 	outRules();
 }
