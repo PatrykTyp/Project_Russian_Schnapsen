@@ -116,6 +116,7 @@ void GameMechanics::checkGame(Card& cardP1, Card& cardP2, Card& cardP3) {
 		* 2 - trefl
 		* 3 - karo
 		* 4 - kier
+		* edit
 		*/
 		if (activeT == 1) {
 			if (cardP1.color == "pik" && cardP2.color == "pik" && cardP3.color == "pik") {
